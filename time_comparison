@@ -1,0 +1,53 @@
+12核CPU
+mobilenetv3-s yolov5n
+total_time 12.94 ms  yolotime: 9.17 ms  LK time: 3.77 ms
+total_time 10.71 ms  yolotime: 7.0 ms  LK time: 3.72 ms
+total_time 11.17 ms  yolotime: 8.29 ms  LK time: 2.88 ms
+total_time 9.18 ms  yolotime: 7.36 ms  LK time: 1.82 ms
+total_time 10.99 ms  yolotime: 8.31 ms  LK time: 2.69 ms
+total_time 10.86 ms  yolotime: 8.47 ms  LK time: 2.4 ms
+total_time 9.4 ms  yolotime: 7.37 ms  LK time: 2.03 ms
+total_time 10.51 ms  yolotime: 8.16 ms  LK time: 2.34 ms
+total_time 10.96 ms  yolotime: 8.34 ms  LK time: 2.62 ms
+average process time: 11.281010591350396 ms
+
+
+yolov5n
+total_time 14.93 ms  yolotime: 10.53 ms  LK time: 4.4 ms
+total_time 13.15 ms  yolotime: 10.13 ms  LK time: 3.02 ms
+total_time 13.47 ms  yolotime: 10.64 ms  LK time: 2.83 ms
+total_time 10.75 ms  yolotime: 9.12 ms  LK time: 1.63 ms
+total_time 12.82 ms  yolotime: 10.22 ms  LK time: 2.6 ms
+total_time 12.28 ms  yolotime: 9.95 ms  LK time: 2.33 ms
+total_time 12.42 ms  yolotime: 10.57 ms  LK time: 1.85 ms
+total_time 11.61 ms  yolotime: 10.26 ms  LK time: 1.35 ms
+total_time 12.05 ms  yolotime: 10.47 ms  LK time: 1.58 ms
+total_time 12.76 ms  yolotime: 10.45 ms  LK time: 2.3 ms
+average process time: 13.519737556561086 ms
+
+
+单核CPU
+mobilenetv3-s yolov5n
+total_time 88.04 ms  yolotime: 71.98 ms  LK time: 16.06 ms
+total_time 78.54 ms  yolotime: 76.38 ms  LK time: 2.15 ms
+total_time 77.13 ms  yolotime: 75.13 ms  LK time: 2.0 ms
+total_time 107.21 ms  yolotime: 89.31 ms  LK time: 17.9 ms
+total_time 101.09 ms  yolotime: 94.21 ms  LK time: 6.88 ms
+total_time 105.39 ms  yolotime: 87.44 ms  LK time: 17.96 ms
+total_time 89.01 ms  yolotime: 72.65 ms  LK time: 16.36 ms
+total_time 119.3 ms  yolotime: 103.93 ms  LK time: 15.36 ms
+total_time 85.85 ms  yolotime: 69.37 ms  LK time: 16.48 ms
+average process time: 96.81744924977934 ms
+
+yolov5n
+total_time 149.36 ms  yolotime: 146.89 ms  LK time: 2.47 ms
+total_time 147.81 ms  yolotime: 137.28 ms  LK time: 10.53 ms
+total_time 173.66 ms  yolotime: 157.36 ms  LK time: 16.31 ms
+total_time 142.11 ms  yolotime: 125.13 ms  LK time: 16.98 ms
+total_time 170.53 ms  yolotime: 141.79 ms  LK time: 28.75 ms
+total_time 142.82 ms  yolotime: 127.63 ms  LK time: 15.19 ms
+total_time 128.44 ms  yolotime: 116.24 ms  LK time: 12.21 ms
+total_time 159.76 ms  yolotime: 158.37 ms  LK time: 1.39 ms
+total_time 174.62 ms  yolotime: 166.05 ms  LK time: 8.57 ms
+total_time 117.52 ms  yolotime: 116.02 ms  LK time: 1.5 ms
+average process time: 158.010963800905 ms

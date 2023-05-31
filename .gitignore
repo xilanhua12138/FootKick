@@ -1,2 +1,5 @@
 .vscode
 *.pyc
+/dataset
+/clean_dataset
+*.pkl

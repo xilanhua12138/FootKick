@@ -1,7 +1,7 @@
 #!/bin/bash
 
-# chmod +x ./configure_udev_rules.sh
-# ./configure_udev_rules.sh
+chmod +x ./configure_udev_rules.sh
+./configure_udev_rules.sh
 
 function set_udev_rules() {
 

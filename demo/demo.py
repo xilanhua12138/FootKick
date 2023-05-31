@@ -74,7 +74,7 @@ def run(
             image = convert_image(data, cfg, camera.color_mode)
             image = np.array(image[:,:,:3])
             start_time0 = time.time()
-            xyxy,conf,cls,img0 = inference.inference(image, model)
+            xyxy,conf,cls,img0 = inference.inference_ultralytics(image, model)
             end_time0 = time.time()
             yolotime = end_time0 - start_time0
             # print('yolo time:',round((yolotime)*1000,2),'ms')
@@ -139,5 +139,5 @@ def run(
 if __name__ == "__main__":
     config_path = "/home/yunhaoshui/FootKick/resources/SDVS320_RGB_324x248.cfg"
     weight_path = "/home/yunhaoshui/FootKick/resources/best.engine"
-    data_path = '/home/yunhaoshui/FootKick/resources/footkick.yaml'
+    data_path = '/home/yunhaoshui/FootKick/resources/footkick_ultralytics.yaml'
     run(config_path=config_path, weight_path=weight_path, data_path =data_path)
